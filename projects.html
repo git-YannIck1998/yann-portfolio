@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+</head>
+<body>
+        <header>
+                <nav>
+                        <ul>
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/about.html">About</a></li>
+                                <li><a href="/projects.html">Projects</a></li>
+                                <li><a href="/contact.html">Contact</a></li>
+                        </ul>
+                </nav>
+        </header>
+              
+        <section id="projects">
+                <h1>My Projects</h1>
+                <br>
+                <marquee behavior="alternate" direction="left" scrollamount="5" width="40%">
+                <div class="side-side">
+                        <div class="project card">
+                                <img src="./extras/project-images/studentonb.png" alt="Project image">
+                                <hr>
+                                <h3>Online notice Board for Students</h3>
+                                <p>Online platform for students to access <br>
+                                        information from their educational <br>
+                                        institutions in real time and anywhere.</p>
+                        </div>
+                        <div class="project card">
+                                <img src="./extras/project-images/member-card.jpg" alt="Project image">
+                                <hr>
+                                <h3>Membership Card</h3>
+                                <p>
+                                        Basic conception of a membership card <br>
+                                        for an organization, an education <br>
+                                        institution and/or an association.
+                                </p>
+                        </div>
+                        <div class="project card">
+                                <img src="./extras/project-images/event-invite.png" alt="Project image">
+                                <hr>
+                                <h3>Personal Event Posters</h3>
+                                <p>
+                                        Event posters and banners for your party,<br>
+                                        birthday, sport and entertainment events.
+                                </p>
+                        </div>
+                        <div class="project card">
+                                 <video loop autoplay muted>
+                                        <source media="(max-width:100px )" src="./extras/project-images/video-editing.mp4" type="video/mp4">
+                                </video>
+                                <hr>
+                                <h3>Personal Video Montage</h3>
+                                <p>A simple video montage with <br>
+                                        a text and animation and transition.</p>
+                        </div>
+                </div>
+                </marquee>
+        </section>
+
+        <footer>
+                <img src="./extras/logo.png" alt="Logo of the owner of the portfolio">
+                <p>&copy; 2023 Creative Mindset. All rights reserved.</p><br>
+                <div class="middle">
+                        <a class="btn" onclick="facebook()">
+                                <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn" onclick="github()">
+                                <i class="fab fa-github"></i>
+                        </a>
+                        <a class="btn" onclick="twitter()">
+                                <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn" onclick="instagram()">
+                                <i class="fab fa-instagram"></i>
+                        </a>
+                </div>
+        </footer>
+        
+        <script src="script.js"></script>
+</body>
+</html>

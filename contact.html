@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+</head>
+<body>
+        <header>
+                <nav>
+                        <ul>
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/about.html">About</a></li>
+                                <li><a href="/projects.html">Projects</a></li>
+                                <li><a href="/contact.html">Contact</a></li>
+                        </ul>
+                </nav>
+        </header>
+          
+        <section id="contact">
+                <h1>Contact Me</h1>
+                <br>
+                <form>
+                        <p> <input type="text" placeholder="Name"></p>
+                        <p> <input type="email" placeholder="Email"></p>
+                        <p><textarea placeholder="Message"></textarea></p>
+                        <p> <button type="submit">Send</button></p>
+                </form>
+        </section>
+        
+        <footer>
+                <img src="./extras/logo.png" alt="Logo of the owner of the portfolio">
+                <p>&copy; 2023 Creative Mindset. All rights reserved.</p><br>
+                <div class="middle">
+                        <a class="btn" onclick="facebook()">
+                                <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn" onclick="github()">
+                                <i class="fab fa-github"></i>
+                        </a>
+                        <a class="btn" onclick="twitter()">
+                                <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn" onclick="instagram()">
+                                <i class="fab fa-instagram"></i>
+                        </a>
+                </div>
+        </footer>
+        
+        <script src="script.js"></script>
+</body>
+</html>
