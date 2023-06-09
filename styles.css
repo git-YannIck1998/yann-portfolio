@@ -9,9 +9,9 @@ body, h1, h2, h3, p, ul, li {
         background-image: none;
         background-color: rgba(255, 255, 255, 0.5);
         background-repeat: no-repeat;
-        /*background-size: cover;*/
-        /*background-position-x: right;*/
-        /*background-position-y: bottom;*/
+        background-size: cover;
+        /*background-position-x: right;
+        background-position-y: bottom;*/
         background-blend-mode: lighten;
         background-attachment: fixed;
       }
@@ -62,6 +62,10 @@ body, h1, h2, h3, p, ul, li {
         padding: 140px;
         text-align: center;
         color: Black;
+      }
+
+      #home p {
+        justify-content: left;
       }
 
       /*About page CSS*/

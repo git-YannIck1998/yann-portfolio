@@ -1,6 +1,6 @@
 // Background Image for the body
 //document.body.style.backgroundImage = "url('./extras/photo.avif')";
-document.body.style.backgroundImage = "url('./extras/banner.png')";
+document.body.style.backgroundImage = "url('./extras/logo.png')";
 
 //For the collapsibles
 var coll = document.getElementsByClassName("collapsible");
