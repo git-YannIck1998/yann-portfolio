@@ -18,6 +18,19 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+// Button: Get Started with me
+function getStarted() {
+    const content = document.getElementById("content")
+    content.innerHTML='<object type="application/pdf" data="/extras/ayecv.pdf" width="100%" height="1000px" no-download></object>';
+    window.addEventListener('contextmenu', function (e) {
+      e.preventDefault(); // Prevent right-click context menu
+    });
+
+    document.getElementById('viewPDF').addEventListener('click', function () {
+      alert('Sorry, downloading PDF is not allowed.'); // Display custom message
+    });
+}
+
 //Socials Redirect
 function facebook() {
   window.open( "https://www.facebook.com", "_blank");

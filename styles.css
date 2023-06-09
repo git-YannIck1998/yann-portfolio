@@ -9,11 +9,11 @@ body, h1, h2, h3, p, ul, li {
         background-image: none;
         background-color: rgba(255, 255, 255, 0.5);
         background-repeat: no-repeat;
-        background-size: cover;
-        /*background-position-x: right;
-        background-position-y: bottom;*/
+        background-size: contain;
+        background-position: center;
         background-blend-mode: lighten;
         background-attachment: fixed;
+        top: -100px;
       }
       
       /* Header */
@@ -59,13 +59,14 @@ body, h1, h2, h3, p, ul, li {
       }
 
       #home  {
-        padding: 140px;
+        padding: 180px;
         text-align: center;
         color: Black;
       }
 
       #home p {
         justify-content: left;
+        font-size: 25px;
       }
 
       /*About page CSS*/
@@ -122,11 +123,12 @@ body, h1, h2, h3, p, ul, li {
         border: none;
         text-align: left;
         outline: none;
-        font-size: 15px;
+        font-size: 1.1rem;
       }
       
       .active, .collapsible:hover {
         background-color: #555;
+        transition: .5s;
       }
 
       .content {
