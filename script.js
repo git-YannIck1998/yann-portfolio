@@ -37,7 +37,7 @@ function facebook() {
 }
 
 function github() {
-  window.open( "https://www.github.com", "_blank");
+  window.open( "", "_blank");
 }
 
 function twitter() {
