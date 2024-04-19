@@ -46,5 +46,5 @@ function twitter() {
 }
 
 function instagram() {
-  window.open("https://www.instagram.com", "_blank");
+  window.open("https://www.instagram.com/@creative_spam98", "_blank");
 }
