@@ -22,7 +22,7 @@ for (i = 0; i < coll.length; i++) {
 function getStarted() {
   const content = document.getElementById("content");
   content.innerHTML =
-    '<object type="application/pdf" data="/extras/ayecv.pdf" width="100%" height="1000px" no-download></object>';
+    '<object type="application/pdf" data="/extras/ayecv(trans-en-fr).pdf" width="100%" height="1000px" no-download></object>';
   window.addEventListener("contextmenu", function (e) {
     e.preventDefault(); // Prevent right-click context menu
   });
